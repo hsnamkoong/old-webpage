@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://www.calpoly.edu/~dsun09/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Note there is no responsive meta tag here -->
+
+    <!-- <link rel="shortcut icon" href="https://www.calpoly.edu/assets/ico/favicon.ico"> -->
+
+    <title>Hongseok Namkoong</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/non-responsive.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://web.stanford.edu/~hnamk/#">Hongseok Namkoong</a> 
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">about</a></li>
+            <li><a href="#research">research</a></li>
+            <!-- <li><a href="#teaching">teaching</a></li> -->
+	    <!-- <li><a href="#software">software</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- <div class="page-header"> -->
+
+      <!-- <h2> Hongseok Namkoong </h2> -->
+
+      <!-- </div> -->
+      <br>
+      <div class="col-md-4 col-sm-4 col-xs-6">
+	  <img src="./css/profile.jpg" class="col-md-10 col-sm-10 col-xs-10"
+	       title="hong">
+      </div>
+      
+      <div class="col-md-8 col-sm-8 col-xs-6">
+
+	<h2 id="about" style="padding-top: 60px; margin-top: -70px;">about me</h2>
+
+	<p> I am a postdoctoral researcher
+	  at <a href="https://research.fb.com/core-data-science/">Facebook
+	  Core Data Science</a>, in the Adaptive Experimentation group.  I
+	  recently received my
+	  Ph.D. from <a href="http://www.stanford.edu">Stanford
+	  University,</a> advised by
+	  <a href="http://stanford.edu/~jduchi">John Duchi</a>
+	  and <a href="http://web.stanford.edu/~glynn">Peter Glynn</a>.  I was
+	  a member of the <a href="https://or.stanford.edu"> Operations
+	  Research Group</a>, and the <a href="http://statsml.stanford.edu/">
+	  Statistical Machine Learning Group</a>. In July 2020, I will join
+	  the <a href="https://www8.gsb.columbia.edu/faculty-research/divisions/decision-risk-operations">Decision,
+	  Risk, and Operations</a> division
+	  at <a href="https://www8.gsb.columbia.edu/">Columbia Business
+	  School</a> as an assistant professor.
+	</p>
+
+	
+	<p>
+	  My research interests lie at the interface of large-scale
+	  statistical models and decision-making. They build on machine
+	  learning, statistics, applied probability, simulation, and
+	  optimization, with a particular emphasis on developing robust and
+	  reliable methods for data-driven decision making.
+	</p>
+	
+      
+	<p>
+	  Previously, I obtained a
+	  M.S. in <a href="https://statistics.stanford.edu/">Statistics</a>
+	  from Stanford, and a
+	  B.S. in <a href="http://ie.kaist.ac.kr">Industrial Engineering</a>
+	  and <a href="http://mathsci.kaist.ac.kr">Mathematics</a> from KAIST.
+	</p>
+
+	<p>
+	  hnamk (at) stanford.edu
+	</p>
+      </div>
+
+
+      <br>
+      <br>
+      
+      <!-- <div class="container"> -->
+      <h2>research summary</h2>
+
+      <p style="margin-bottom:.3cm;"> My research studies the
+      interplay between statistical learning and operations research,
+      and focuses on reliable learning methods for
+      decision making. Below are a few underlying themes for my PhD
+      projects. </p>
+      <ul>
+	<li> Robust learning procedures that
+	guarantee a level of performance under noisy inputs and small
+	  distributional shifts
+	</li>
+	<li> Algorithms that optimally trade off
+	reliability—such as subpopulation performance, tail-risk, and robustness to model
+	  misspecification—alongside classical average statistical performance
+	</li>
+	<li> Rare-event simulation-based testing frameworks for
+	certifying safety of performance-critical systems
+	like autonomous vehicles, and artificial pancreata
+	</li>
+      </ul>
+	<!-- <div class="highlight"> -->
+	<!--   <h4> <em> Robust Machine Learning </em> </h4> -->
+	<!--   <p> -->
+	<!--     I develop robust learning procedures that guarantee a level of -->
+	<!--     performance under noisy inputs and small distributional shifts -->
+	<!--     Tail performance. High dimensions. Deep nets are not robust. -->
+	<!--     VarReg, RobustSAA, Certifiable, Riccardo -->
+	<!--   </p> -->
+	<!--   <br> -->
+	<!-- </div> -->
+
+	<!-- <div class="highlight"> -->
+	<!--   <h4> <em> Optimal Trade-offs: Fairness, Long-tails, Confounding </em></h4> -->
+	<!--   <p> -->
+	<!--     Subpopulations: Heterogeneity, -->
+	<!--     Fairness. Confounding. RobustStochastic, ICML, CondRisk, Working -->
+	<!--     Paper, Causal -->
+	<!--   </p> -->
+	<!--   <br> -->
+	<!-- </div> -->
+
+	<!-- <div class="highlight"> -->
+	<!--   <h4> <em> Data-driven Rare Event Simulation </em> </h4> -->
+	<!--   <p> -->
+	<!--     Certify safety through simulation! AVSim, Diabetes, LDStats -->
+	<!--   </p> -->
+	<!--   <br> -->
+	<!-- </div> -->
+	
+      <!-- </div> -->
+      
+      <div class="page-header">
+	<h2 id="research" style="padding-top: 40px; margin-top:
+	-20px;">publications <small>&amp;</small> preprints</h2>
+	<p>
+	  See also
+	  my <a href="https://scholar.google.com/citations?user=dyXX1EgAAAAJ"
+	  onclick="javascript:
+	  pageTracker._trackPageview(&#39;/out/google_scholar&#39;)">Google
+	  Scholar profile</a>. &nbsp&nbsp (Default author ordering is
+	  alphabetical, and
+	  <sup><span>&#8224;</span></sup> denotes equal contribution.)
+	  <br>
+	  <ul>
+
+	    <li> <a href="./papers/DuchiHaNa19.pdf"> Distributionally Robust Losses against Mixture Covariate
+	      Shifts </a><br>
+	      <a href="http://stanford.edu/~jduchi">John Duchi</a>,
+	      <a href="https://thashim.github.io/"> Tatsunori Hashimoto</a>,
+	      Hongseok Namkoong
+	      <br> Under review
+	      <br> <br>
+	    </li>
+	    
+	    <li> <a href="http://arxiv.org/abs/1810.08750"> Learning Models
+		with Uniform Performance via Distributionally Robust
+		Optimization
+	      </a> <br>
+	      <a href="http://stanford.edu/~jduchi">John Duchi</a>,
+	      Hongseok Namkoong
+	      <br> Major Revision at Annals of Statistics
+	      <br> <br>
+	    </li>
+	    
+	    <li> <a href="https://arxiv.org/abs/1808.09521"> Bounds on the
+		Conditional and Average Treatment Effect in the Presence of
+		Unobserved Confounders</a> <br>
+	      <a href="https://web.stanford.edu/~syadlows/">
+		Steve Yadlowsky</a>, Hongseok Namkoong,
+	      <a href="https://sites.google.com/stanford.edu/basulab/home">Sanjay
+	      Basu</a>,
+	      <a href="http://stanford.edu/~jduchi">John Duchi</a>,
+	      <a href="https://web.stanford.edu/~lutian/home.HTML">Lu
+	      Tian</a>
+	      <br> Under review
+	      <br> <br>
+	    </li>
+
+	    <li> <a href="http://arxiv.org/abs/1610.03425"> Statistics of
+	    Robust Optimization: A Generalized Empirical Likelihood
+		Approach</a> <br>
+	      <a href="http://stanford.edu/~jduchi">John
+	      Duchi</a>, <a href="http://web.stanford.edu/~glynn">Peter
+	      Glynn</a>, and Hongseok Namkoong
+	      <br> Revision at Mathematics of Operations Research
+	      <br>
+	      <strong> <font color="DarkBlue"> INFORMS APS Best Student Paper Award
+	      </font> </strong>
+	      <br> <br>
+	    </li>
+
+	    <li> Statistical Estimation of Large Deviation Rates for
+	      i.i.d. Random Walks. <br> Hongseok Namkoong,
+	      <a href="http://stanford.edu/~jduchi">John
+	      Duchi</a>, <a href="http://web.stanford.edu/~glynn">Peter
+	      Glynn</a>
+	      <br> To be submitted
+	      <br> <br>
+	    </li>
+
+	    <li> <a href="http://arxiv.org/abs/1811.00145">
+		Scalable End-to-End Autonomous Vehicle Testing via Rare-Event
+	      Simulation </a> <br> Matthew O'Kelly<sup><span>&#8224;</span></sup>,
+	      <a href="http://amansinha.org"> Aman Sinha
+	      </a><sup><span>&#8224;</span></sup>,
+	      Hongseok Namkoong<sup><span>&#8224;</span></sup>,
+	      <a href="http://stanford.edu/~jduchi">John Duchi</a>,
+	      <a href="https://groups.csail.mit.edu/locomotion/russt.html">Russ Tedrake</a>,
+	      <a href="http://web.stanford.edu/~glynn">Peter
+	      Glynn</a>
+	      <br> 
+	      Short version appeared in
+	      Neural Information Processing Systems (NeurIPS), 2018
+	      <br> Journal version to be submitted
+	      <br>
+ 	      [<a href="./papers/videos"> videos </a>]
+	      <br>
+	      <br>
+	    </li>
+
+
+	    <li> <a href="https://arxiv.org/abs/1805.12018"> Generalizing to
+	    Unseen Domains via Adversarial Data Augmentation
+	      </a> <br>
+	      <a href="https://scholar.google.com/citations?user=YkeS_SoAAAAJ&hl=en">
+	      Riccardo Volpi
+	      </a><sup><span>&#8224;</span></sup>,
+	      Hongseok Namkoong<sup><span>&#8224;</span></sup>,
+	      <a href="http://ozansener.net/"> Ozan Sener
+	      </a>,
+	      <a href="http://stanford.edu/~jduchi">John Duchi</a>,
+	      <a href="http://profs.sci.univr.it/~swan/">Vittorio Murino</a>,
+	      <a href="http://cvgl.stanford.edu/silvio/">Silvio Savarese</a>
+	      <br> 
+	      Neural Information Processing Systems (NeurIPS), 2018
+	      <br>
+ 	      [<a href="https://github.com/ricvolpi/adversarial-feature-augmentation"> code </a>]
+	      <br> <br>
+	    </li>
+	    
+	    <li> <a href="https://arxiv.org/abs/1806.08010"> Fairness Without
+	    Demographics in Repeated Loss Minimization
+	      </a> <br>
+	      <a href="https://thashim.github.io/"> Tatsunori Hashimoto
+	      </a>, Megha Srivastava,
+	      Hongseok Namkoong,
+	       <a href="https://cs.stanford.edu/~pliang/">Percy Liang</a>
+	      <br> 
+	      International Conference on Machine Learning (ICML),
+	      2018
+	      <br>
+	      <strong> <font color="DarkBlue"> ICML Best Paper Runner-up Award
+	      </font> </strong>
+	      <br>
+	      [<a href="https://bit.ly/2sFkDpE"> code </a>]
+	      <br> <br>
+	    </li>
+	    
+	    <li> <a href="https://arxiv.org/abs/1710.10571"> Certifying Some
+	    Distributional Robustness with Principled Adversarial
+	    Training</a> <br>
+	      <a href="http://amansinha.org"> Aman Sinha
+	      </a><sup><span>&#8224;</span></sup>,
+	      Hongseok Namkoong<sup><span>&#8224;</span></sup>,
+	       <a href="http://stanford.edu/~jduchi">John Duchi</a>
+	      <br> 
+	      Short version appeared in
+	      International Conference on Learning Representations (ICLR),
+	      2018
+	      <br> 
+	      Journal version to be submitted
+	      <br>
+	      <strong> <font color="DarkBlue"> Full oral presentation; top
+		  2&#37; of submissions </font> </strong>
+	      <br>
+	      [<a href="https://github.com/duchi-lab/certifiable-distributional-robustness"> code </a>]
+	      <br> <br>
+	    </li>
+
+	    <li>
+	      <a href="http://jmlr.org/papers/v20/17-750.html"> Variance Regularization with
+	    Convex Objectives </a>	      <br>
+	      Hongseok Namkoong,
+	       <a href="http://stanford.edu/~jduchi">John Duchi</a>
+	      <br> 
+	      Short version appeared in
+	      Neural Information Processing Systems (NIPS), 2017
+	      <br> 
+	      Journal of Machine Learning Research, 20(68):1−55, 2019.
+	      <br>
+	      <strong> <font color="DarkBlue"> NIPS Best Paper
+	      Award </font> </strong>
+	      <br>
+	      [<a href="https://github.com/hsnamkoong/robustopt"> code </a>]
+	      <br> <br>
+	    </li>
+
+	    <li>
+	      <a href="http://proceedings.mlr.press/v70/namkoong17a.html">
+    Adaptive Sampling Probabilities for Non-smooth Optimization </a>
+	      <br>
+	      Hongseok Namkoong,
+	      <a href="http://amansinha.org"> Aman Sinha</a>,
+	      <a href="https://web.stanford.edu/~syadlows/">
+		Steve Yadlowsky</a>,
+	       <a href="http://stanford.edu/~jduchi">John Duchi</a>
+	      <br> 
+	      International Conference on Machine Learning (ICML), 2017
+	      <br>
+	      [<a href="https://github.com/duchi-lab/adaptive-sampling-descent"> code </a>]
+	      <br> <br>
+	    </li>
+
+	    <li>
+	      <a href="https://papers.nips.cc/paper/6040-stochastic-gradient-methods-for-distributionally-robust-optimization-with-f-divergences">
+    Stochastic Gradient Methods for Distributionally Robust
+    Optimization with f-divergences </a>
+	      <br>
+	      Hongseok Namkoong,
+	      <a href="http://stanford.edu/~jduchi">John Duchi</a>
+	      <br> 
+	      Neural Information Processing Systems (NIPS), 2016
+	      <!-- <br> -->
+	      <!-- [<a href="http://stanford.edu/~jugander/papers/ec18-pbdm-slides.pdf">talk slides, EC</a> by Imanol Arrieta-Ibarra] -->
+	      <br> <br>
+	    </li>
+	  </ul>
+	</p>
+	<!-- <br> -->
+	<!-- <h2> refereed conference proceedings </h2> -->
+	<!-- <p> -->
+	<!--   Many papers -->
+	<!-- </p> -->
+      </div>
+
+
+      <!-- <div class="container"> -->
+      <!-- 	<h2 id="working" style="padding-top: 40px; margin-top: -->
+      <!-- 				-40px;">selected working papers </h2> -->
+      <!-- 	<p> -->
+      <!-- 	  <ul> -->
+      <!-- 	    <li> In-silico Risk Analysis of Personalized Artificial Pancreas -->
+      <!-- 	      Controllers via Rare-Event Simulation <br> with Matthew O'Kelly, -->
+      <!-- 	      Aman Sinha, Justin Norden, <br> -->
+      <!-- 	      Preliminary version presented at Machine Learning for Health Workshop, NIPS 2018. -->
+      <!-- 	      <br> <br> -->
+      <!-- 	    </li> -->
+
+      <!-- 	    <li> Subpopulation Fairness without Demographics using Coherent -->
+      <!-- 	      Risk Measures <br> with <a href="http://web.stanford.edu/~glynn">Peter -->
+      <!-- 	      Glynn</a> -->
+      <!-- 	      <br> <br> -->
+      <!-- 	    </li> -->
+      <!-- 	  </ul> -->
+      <!-- 	</p> -->
+      <!-- </div> -->
+
+      <!-- <h2 id="teaching" style="padding-top: 60px; margin-top: -40px;">teaching</h2> -->
+      <!-- <p> -->
+      <!-- 	Stochastic Modeling (MS&amp;E221), Head TA, Taught by Peter Glynn, Winter 2018 -->
+      <!-- </p> -->
+      <!-- <p> -->
+      <!-- 	Information Theory and Statistics (STATS311),  TA, Taught by John Duchi, Winter 2016 -->
+      <!-- </p> -->
+      
+
+      
+      <!-- <ul> -->
+      <!-- 	<li><b>July 12-13, 2018</b>: Co-chairing the <a href="http://www.siam.org/meetings/ns18/">SIAM Workshop on Network Science</a>, Portland, OR. -->
+      <!-- 	</li><li><b>June 2018</b>: New paper at EC (with Imanol Arrieta-Ibarra): <a href="https://dl.acm.org/citation.cfm?id=3219220">A Personalized BDM</a> -->
+      <!-- </li></ul> -->
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./css/jquery.min.js"></script>
+    <script src="./css/bootstrap.min.js"></script>
+  
+
+</body></html>
