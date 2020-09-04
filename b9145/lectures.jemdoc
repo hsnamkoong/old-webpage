@@ -2,21 +2,21 @@
 = B9145: Reliable Statistical Learning
 [http://hsnamkoong.github.io/ Hongseok Namkoong], Columbia University, Fall 2020
 
-== Course Schedule
+== Course Schedule (TENTATIVE)
 ~~~
 {}{table}{TABLENAME}
  | *Topics* | *Readings* | * Video *|| 
- Sep 8 | Course overview | [slides_lec_1.pdf slides] | ||
-Sep 15 |  |   |   ||
-Sep 22 |  |   |   ||
-Sep 29 |  |   |   ||
-Oct 6 |  |   |   ||
-Oct 13 |  |   |   ||
-Oct 27 |  |   |   ||
-Nov 10 |  |   |   ||
-Nov 17 |  |   |   ||
-Nov 24 |  |   |   ||
-Dec 1 |  |   |    ||
-Dec 8 |  |   |   
+ Sep 8 | course overview | [slides_lec_1.pdf slides] | ||
+Sep 15 | generalization bounds |   |   ||
+Sep 22 | M-estimation, SGD |   |   ||
+Sep 29 | information theoretic lower bounds |   |   ||
+Oct 6 | distributional robustness |   |   ||
+Oct 13 | distributional robustness, adversarial training |   |   ||
+Oct 27 | adversarial training, ethics in ML |   |   ||
+Nov 10 | fairness definitions, subpopulations & DRO  |   |   ||
+Nov 17 | guest lecture: [http://people.csail.mit.edu/ludwigs/ Ludwig Schmidt]  |   |   ||
+Nov 24 | subpopulations & DRO, domain adaptation |   |   ||
+Dec 1 | causality |   |    ||
+Dec 8 | causality |   |   
 ~~~
 
