@@ -5,8 +5,8 @@
 == Course Schedule (TENTATIVE)
 ~~~
 {}{table}{TABLENAME}
- | *Topics* | *Readings* | * Video *|| 
- Sep 8 | course overview | [slides_lec_1.pdf slides] | ||
+ | *Topics* | * Lecture Notes * | *Readings*|| 
+ Sep 8 | course overview | [./lecture-materials/0-overview/overview.pdf slides], [./lecture-materials/0-overview/overview.pdf annotated slides], [./lecture-materials/0-overview/bounded-differences.pdf bdd-diff-notes] | Chapeter 2, Wainwright (2019) ||
 Sep 15 | generalization bounds |   |   ||
 Sep 22 | M-estimation, SGD |   |   ||
 Sep 29 | information theoretic lower bounds |   |   ||
@@ -20,3 +20,6 @@ Dec 1 | causality |   |    ||
 Dec 8 | causality |   |   
 ~~~
 
+== References
+
+- Wainwright, Martin J. High-dimensional statistics: A non-asymptotic viewpoint. Vol. 48. Cambridge University Press, 2019.
