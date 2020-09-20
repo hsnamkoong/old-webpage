@@ -6,9 +6,9 @@
 ~~~
 {}{table}{TABLENAME}
  | *Topics* | * Lecture Notes * | *Readings*|| 
- Sep 8 | course overview | [./lecture-materials/0-overview/overview.pdf slides], [./lecture-materials/0-overview/overview-annotated.pdf annotated slides], [./lecture-materials/0-overview/bounded-differences.pdf bdd-diff-notes] | Ch 2, Wainwright (2019) ||
-Sep 15 | generalization bounds |   |  Ch 4.2-4.3, 5, Wainwright (2019) ||
-Sep 22 | M-estimation, SGD |   |   ||
+ Sep 8 | course overview | [./lecture-materials/0-overview/overview.pdf slides], [./lecture-materials/0-overview/overview-annotated.pdf annotated slides], [./lecture-materials/0-overview/bounded-differences.pdf bdd-diff-notes] | Ch. 2, Wainwright (2019) ||
+Sep 15 | generalization bounds |   |  Ch. 4.2-4.3, 5, Wainwright (2019) ||
+Sep 22 | M-estimation, SGD |   | Ch. 5, van der Vaart (1998), \n Ch. 2-3, Duchi (2016)  ||
 Sep 29 | information theoretic lower bounds |   |   ||
 Oct 6 | distributional robustness |   |   ||
 Oct 13 | distributional robustness, adversarial training |   |   ||
@@ -20,6 +20,13 @@ Dec 1 | causality |   |    ||
 Dec 8 | causality |   |   
 ~~~
 
+\n\n
+Email the instructor if you want access to lecture recordings.
+
 == References
 
 - Wainwright, Martin J. High-dimensional statistics: A non-asymptotic viewpoint. Vol. 48. Cambridge University Press, 2019.
+
+- van der Vaart, Aad W. Asymptotic Statistics. Cambridge Series in Statistical and Probabilistic Mathematics. Cambridge University Press, 1998
+
+- Duchi, John C. [http://web.stanford.edu/~jduchi/PCMIConvex/ Introductory lectures on stochastic convex optimization.] In The Mathematics of Data, IAS/Park City Mathematics Series. American Mathematical Society, 2018
