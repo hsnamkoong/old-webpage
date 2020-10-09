@@ -10,10 +10,10 @@
 Sep 15 | generalization bounds | on Canvas  |  Ch. 4.2-4.3, 5, Wainwright (2019) ||
 Sep 22 | M-estimation, SGD | on Canvas  | Ch. 5, van der Vaart (1998), \n Ch. 2-3, Duchi (2016)  ||
 Sep 29 | information theoretic lower bounds | on Canvas  | Ch. 15, Wainwright (2019), [https://link.springer.com/chapter/10.1007/978-1-4612-1880-7_29 Yu (1997)], \n Stoch. opt.: Ch. 5, Duchi (2016), [https://ieeexplore.ieee.org/document/6142067 Agarwal et al. (2012)]  ||
-Oct 6 | distributional robustness |   |  [https://arxiv.org/abs/1810.08750 Duchi and Namkoong (2020)], [https://pubsonline.informs.org/doi/abs/10.1287/moor.2018.0936 Blanchet and Murthy (2019)]  ||
-Oct 13 | distributional robustness, adversarial training |   | Ch. 6.3, Shapiro et al. (2014)  ||
-Oct 27 | adversarial training, ethics in ML |   |   ||
-Nov 10 | fairness definitions, subpopulations & DRO  |   |   ||
+Oct 6 | distributional robustness | [./lecture-materials/4-dro-formulation.pdf notes]  |  [https://arxiv.org/abs/1810.08750 Duchi and Namkoong (2020)],\n [https://pubsonline.informs.org/doi/abs/10.1287/moor.2018.0936 Blanchet and Murthy (2019)]  ||
+Oct 13 | distributional robustness |   | Ch. 6.3, Shapiro et al. (2014)  ||
+Oct 27 | adversarial training |   |   ||
+Nov 10 | ethics in ML, fairness definitions  |   |   ||
 Nov 17 | guest lecture: [http://people.csail.mit.edu/ludwigs/ Ludwig Schmidt]  |   |   ||
 Nov 24 | subpopulations & DRO, domain adaptation |   |   ||
 Dec 1 | causality |   |    ||
