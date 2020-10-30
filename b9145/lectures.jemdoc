@@ -7,13 +7,13 @@
 {}{table}{TABLENAME}
  | *Topics* | * Lecture Notes * | *Readings*|| 
  Sep 8 | course overview | [./lecture-materials/0-overview/overview.pdf slides], [./lecture-materials/0-overview/overview-annotated.pdf annotated slides], [./lecture-materials/0-overview/bounded-differences.pdf bdd-diff-notes] | Ch. 2, Wainwright (2019) ||
-Sep 15 | generalization bounds | on Canvas  |  Ch. 4.2-4.3, 5, Wainwright (2019) ||
-Sep 22 | M-estimation, SGD | on Canvas  | Ch. 5, van der Vaart (1998), \n Ch. 2-3, Duchi (2016)  ||
-Sep 29 | information theoretic lower bounds | on Canvas  | Ch. 15, Wainwright (2019), [https://link.springer.com/chapter/10.1007/978-1-4612-1880-7_29 Yu (1997)], \n Stoch. opt.: Ch. 5, Duchi (2016), [https://ieeexplore.ieee.org/document/6142067 Agarwal et al. (2012)]  ||
-Oct 6 | distributional robustness | [./lecture-materials/4-dro-formulation.pdf notes]  |  [https://arxiv.org/abs/1810.08750 Duchi and Namkoong (2020)],\n [https://pubsonline.informs.org/doi/abs/10.1287/moor.2018.0936 Blanchet and Murthy (2019)]  ||
-Oct 13 | distributional robustness |   | Ch. 6.3, Shapiro et al. (2014), [https://arxiv.org/abs/1610.05627 Blanchet et al. (2019)], \n
+Sep 15 | generalization bounds | [./lecture-materials/1-generalization.pdf notes]  |  Ch. 4.2-4.3, 5, Wainwright (2019) ||
+Sep 22 | M-estimation, SGD |  [./lecture-materials/2-asymptotics-sgd.pdf notes]  | Ch. 5, van der Vaart (1998), \n Ch. 2-3, Duchi (2016)  ||
+Sep 29 | information theoretic lower bounds |  [./lecture-materials/3-lower-bounds.pdf notes]  | Ch. 15, Wainwright (2019), [https://link.springer.com/chapter/10.1007/978-1-4612-1880-7_29 Yu (1997)], \n Stoch. opt.: Ch. 5, Duchi (2016), [https://ieeexplore.ieee.org/document/6142067 Agarwal et al. (2012)]  ||
+Oct 6 | distributional robustness | [./lecture-materials/4-dro-formulation.pdf notes-1], [./lecture-materials/4-dro.pdf notes-2]  |  [https://arxiv.org/abs/1810.08750 Duchi and Namkoong (2020)],\n [https://pubsonline.informs.org/doi/abs/10.1287/moor.2018.0936 Blanchet and Murthy (2019)]  ||
+Oct 13 | distributional robustness | [./lecture-materials/5-dro.pdf notes]  | Ch. 6.3, Shapiro et al. (2014), [https://arxiv.org/abs/1610.05627 Blanchet et al. (2019)], \n
 [https://jmlr.org/papers/v20/17-750.html Duchi and Namkoong (2019)]  ||
-Oct 27 | adversarial training |   | [https://arxiv.org/abs/1711.00851 Wong and Kolter (2018)], [https://arxiv.org/pdf/1811.01057.pdf Raghunathan et al. (2018)]  ||
+Oct 27 | adversarial training |  [./lecture-materials/6-adversarial.pdf notes] | [https://arxiv.org/abs/1711.00851 Wong and Kolter (2018)], [https://arxiv.org/pdf/1811.01057.pdf Raghunathan et al. (2018)]  ||
 Nov 10 | ethics in ML, fairness definitions  |   |   ||
 Nov 17 | guest lecture: [http://people.csail.mit.edu/ludwigs/ Ludwig Schmidt]  |   |   ||
 Nov 24 | subpopulations & DRO, domain adaptation |   |   ||
