@@ -15,7 +15,7 @@ Oct 13 | distributional robustness | [./lecture-materials/5-dro.pdf notes]  | Ch
 [https://jmlr.org/papers/v20/17-750.html Duchi and Namkoong (2019)]  ||
 Oct 27 | adversarial training |  [./lecture-materials/6-adversarial.pdf notes] | [https://arxiv.org/abs/1711.00851 Wong and Kolter (2018)], [https://arxiv.org/pdf/1811.01057.pdf Raghunathan et al. (2018)]  ||
 Nov 10 | ethics in ML, fairness definitions  | [./lecture-materials/7-ethics.pdf slides]  | [https://sites.google.com/view/fatecv-tutorial/schedule?authuser=0 Gebru and Denton (2020)], [https://www.liebertpub.com/doi/full/10.1089/big.2016.0047 Chouldechova (2017)], [https://arxiv.org/abs/1609.05807 Kleinberg et al. (2017)]  ||
-Nov 17 | guest lecture: [http://people.csail.mit.edu/ludwigs/ Ludwig Schmidt]  |   | [./lectures/8-benchmarking-schmidt.pdf slides]  | [https://arxiv.org/abs/1902.10811 Recht et al. (2019)]|
+Nov 17 | guest lecture: [http://people.csail.mit.edu/ludwigs/ Ludwig Schmidt]  | [./lectures/8-benchmarking-schmidt.pdf slides]  | [https://arxiv.org/abs/1902.10811 Recht et al. (2019)]|
 Nov 24 | subpopulations & DRO, domain adaptation |   |   ||
 Dec 1 | causality |   |    ||
 Dec 8 | causality |   |   
