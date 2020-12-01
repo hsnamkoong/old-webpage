@@ -18,7 +18,7 @@ Nov 10 | ethics in ML, fairness definitions  | [./lecture-materials/7-ethics.pdf
 Nov 17 | [http://people.csail.mit.edu/ludwigs/ Ludwig Schmidt:] benchmarking  | [./lecture-materials/8-benchmarking-schmidt.pdf slides]  | [https://arxiv.org/abs/1902.10811 Recht et al. (2019)] ||
 Nov 24 | subpopulations & DRO | [./lecture-materials/9-subpopulations.pdf slides]  | [https://arxiv.org/abs/1808.00023 Corbett-Davies and Goel (2018)], \n
 Ch. 6.3, Shapiro et al. (2014), [https://arxiv.org/abs/1810.08750 Duchi and Namkoong (2020)]  ||
-Dec 1 | causality |   |    ||
+Dec 1 | causality | [./lecture-materials/10-causality.pdf slides]  |  Imbens and Rubin (2015)  ||
 Dec 8 | causality |   |   
 ~~~
 
@@ -36,3 +36,5 @@ Email the instructor if you want access to lecture recordings.
 - Alexander Shapiro, Darinka Dentcheva, and Andrzej
   Ruszczynski. Lectures on Stochastic Programming: Modeling and
   Theory. Second Edition. SIAM and Mathematical Programming Society, 2014.
+
+- [https://www.cambridge.org/core/books/causal-inference-for-statistics-social-and-biomedical-sciences/71126BE90C58F1A431FE9B2DD07938AB Guido Imbens and Donald Rubin. Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction. Cambridge University Press. 2015.]
