@@ -19,7 +19,7 @@ Nov 17 | [http://people.csail.mit.edu/ludwigs/ Ludwig Schmidt:] benchmarking  | 
 Nov 24 | subpopulations & DRO | [./lecture-materials/9-subpopulations.pdf slides]  | [https://arxiv.org/abs/1808.00023 Corbett-Davies and Goel (2018)], \n
 Ch. 6.3, Shapiro et al. (2014), [https://arxiv.org/abs/1810.08750 Duchi and Namkoong (2020)]  ||
 Dec 1 | causality | [./lecture-materials/10-causality.pdf slides], [./lecture-materials/10-causality-annotated.pdf annotated slides]  |  Imbens and Rubin (2015)  ||
-Dec 8 | causality | [./lecture-materials/11-sensitivity.pdf slides], [./lecture-materials/11-sensitivity.pdf annotated slides]  |   [https://arxiv.org/abs/1808.09521 Yadlowsky et al. (2018)]
+Dec 8 | causality | [./lecture-materials/11-sensitivity.pdf slides], [./lecture-materials/11-sensitivity-annotated.pdf annotated slides]  |   [https://arxiv.org/abs/1808.09521 Yadlowsky et al. (2018)]
 ~~~
 
 \n\n
