@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>B9145: Reliable Statistical Learning</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">B9145</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="syllabus.pdf">Syllabus</a></div>
+<div class="menu-item"><a href="lectures.html" class="current">Lectures</a></div>
+<div class="menu-item"><a href="psets.html">Problem&nbsp;Sets</a></div>
+<div class="menu-item"><a href="project.html">Project</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>B9145: Reliable Statistical Learning</h1>
+<div id="subtitle"><a href="http://hsnamkoong.github.io/">Hongseok Namkoong</a>, Columbia University, Fall 2020</div>
+</div>
+<h2>Course Schedule (subject to change)</h2>
+<table id="TABLENAME">
+<tr class="r1"><td class="c1"></td><td class="c2"> <b>Topics</b> </td><td class="c3"> <b> Lecture Notes </b> </td><td class="c4"> <b>Readings</b></td></tr>
+<tr class="r2"><td class="c1"> Sep 8 </td><td class="c2"> course overview </td><td class="c3"> <a href="./lecture-materials/0-overview/overview.pdf">slides</a>, <a href="./lecture-materials/0-overview/overview-annotated.pdf">annotated slides</a>, <a href="./lecture-materials/0-overview/bounded-differences.pdf">bdd-diff-notes</a> </td><td class="c4"> Ch. 2, Wainwright (2019) </td></tr>
+<tr class="r3"><td class="c1">Sep 15 </td><td class="c2"> generalization bounds </td><td class="c3"> <a href="./lecture-materials/1-generalization.pdf">notes</a>  </td><td class="c4">  Ch. 4.2-4.3, 5, Wainwright (2019) </td></tr>
+<tr class="r4"><td class="c1">Sep 22 </td><td class="c2"> M-estimation, SGD </td><td class="c3">  <a href="./lecture-materials/2-asymptotics-sgd.pdf">notes</a>  </td><td class="c4"> Ch. 5, van der Vaart (1998), <br /> Ch. 2-3, Duchi (2016)  </td></tr>
+<tr class="r5"><td class="c1">Sep 29 </td><td class="c2"> information theoretic lower bounds </td><td class="c3">  <a href="./lecture-materials/3-lower-bounds.pdf">notes</a>  </td><td class="c4"> Ch. 15, Wainwright (2019), <a href="https://link.springer.com/chapter/10.1007/978-1-4612-1880-7_29">Yu (1997)</a>, <br /> Stoch. opt.: Ch. 5, Duchi (2016), <a href="https://ieeexplore.ieee.org/document/6142067">Agarwal et al. (2012)</a>  </td></tr>
+<tr class="r6"><td class="c1">Oct 6 </td><td class="c2"> distributional robustness </td><td class="c3"> <a href="./lecture-materials/4-dro-formulation.pdf">notes-1</a>, <a href="./lecture-materials/4-dro.pdf">notes-2</a>  </td><td class="c4">  <a href="https://pubsonline.informs.org/doi/abs/10.1287/moor.2018.0936">Blanchet and Murthy (2019)</a>  </td></tr>
+<tr class="r7"><td class="c1">Oct 13 </td><td class="c2"> distributional robustness </td><td class="c3"> <a href="./lecture-materials/5-dro.pdf">notes</a>  </td><td class="c4"> Ch. 6.3, Shapiro et al. (2014), <a href="https://arxiv.org/abs/1610.05627">Blanchet et al. (2019)</a>, <br /><a href="https://jmlr.org/papers/v20/17-750.html">Duchi and Namkoong (2019)</a>  </td></tr>
+<tr class="r9"><td class="c1">Oct 27 </td><td class="c2"> adversarial training </td><td class="c3">  <a href="./lecture-materials/6-adversarial.pdf">notes</a> </td><td class="c4"> <a href="https://arxiv.org/abs/1711.00851">Wong and Kolter (2018)</a>, <a href="https://arxiv.org/pdf/1811.01057.pdf">Raghunathan et al. (2018)</a>  </td></tr>
+<tr class="r10"><td class="c1">Nov 10 </td><td class="c2"> ethics in ML, fairness definitions  </td><td class="c3"> <a href="./lecture-materials/7-ethics.pdf">slides</a>  </td><td class="c4"> <a href="https://sites.google.com/view/fatecv-tutorial/schedule?authuser=0">Gebru and Denton (2020)</a>, <a href="https://www.liebertpub.com/doi/full/10.1089/big.2016.0047">Chouldechova (2017)</a>, <a href="https://arxiv.org/abs/1609.05807">Kleinberg et al. (2017)</a>  </td></tr>
+<tr class="r11"><td class="c1">Nov 17 </td><td class="c2"> <a href="http://people.csail.mit.edu/ludwigs/">Ludwig Schmidt:</a> benchmarking  </td><td class="c3"> <a href="./lecture-materials/8-benchmarking-schmidt.pdf">slides</a>  </td><td class="c4"> <a href="https://arxiv.org/abs/1902.10811">Recht et al. (2019)</a> </td></tr>
+<tr class="r12"><td class="c1">Nov 24 </td><td class="c2"> subpopulations &amp; DRO </td><td class="c3"> <a href="./lecture-materials/9-subpopulations.pdf">slides</a>  </td><td class="c4"> <a href="https://arxiv.org/abs/1808.00023">Corbett-Davies and Goel (2018)</a>, <br />Ch. 6.3, Shapiro et al. (2014), <a href="https://arxiv.org/abs/1810.08750">Duchi and Namkoong (2020)</a>  </td></tr>
+<tr class="r14"><td class="c1">Dec 1 </td><td class="c2"> causality </td><td class="c3"> <a href="./lecture-materials/10-causality.pdf">slides</a>, <a href="./lecture-materials/10-causality-annotated.pdf">annotated slides</a>  </td><td class="c4">  Imbens and Rubin (2015)  </td></tr>
+<tr class="r15"><td class="c1">Dec 8 </td><td class="c2"> causality </td><td class="c3"> <a href="./lecture-materials/11-sensitivity.pdf">slides</a>, <a href="./lecture-materials/11-sensitivity-annotated.pdf">annotated slides</a>  </td><td class="c4">   <a href="https://arxiv.org/abs/1808.09521">Yadlowsky et al. (2018)</a>
+</td></tr></table>
+<p><br /><br />
+Email the instructor if you want access to lecture recordings.</p>
+<h2>References</h2>
+<ul>
+<li><p>Martin J. Wainwright. High-dimensional statistics: A non-asymptotic viewpoint. Vol. 48. Cambridge University Press, 2019.</p>
+</li>
+</ul>
+<ul>
+<li><p>Aad W. van der Vaart. Asymptotic Statistics. Cambridge Series in Statistical and Probabilistic Mathematics. Cambridge University Press, 1998.</p>
+</li>
+</ul>
+<ul>
+<li><p>John C. Duchi. <a href="http://web.stanford.edu/~jduchi/PCMIConvex/">Introductory lectures on stochastic convex optimization.</a> In The Mathematics of Data, IAS/Park City Mathematics Series. American Mathematical Society, 2018</p>
+</li>
+</ul>
+<ul>
+<li><p>Alexander Shapiro, Darinka Dentcheva, and Andrzej
+Ruszczynski. Lectures on Stochastic Programming: Modeling and
+Theory. Second Edition. SIAM and Mathematical Programming Society, 2014.</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://www.cambridge.org/core/books/causal-inference-for-statistics-social-and-biomedical-sciences/71126BE90C58F1A431FE9B2DD07938AB">Guido Imbens and Donald Rubin. Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction. Cambridge University Press. 2015.</a></p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2020-12-08 16:05:51 KST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+(<a href="lectures.jemdoc">source</a>)
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

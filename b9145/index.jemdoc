@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{index.html}, showsource
 = B9145: Reliable Statistical Learning
-[http://hsnamkoong.github.io/ Hongseok Namkoong], Columbia University, Fall 2020
+[http://hsnamkoong.github.io/ Hongseok Namkoong], Columbia University, Spring 2023
 
 == Description
 
@@ -28,17 +28,17 @@ of practice.
 
 
 == Lectures  
-Tuesday, 3:50 - 7:05 PM in Uris 333 (see Canvas for Zoom link)
+Thursdays, 2:00--5:15pm, Geffen 430
 
 
 == Course staff
 Hongseok Namkoong (Instructor)
-- Email: namkoong (at) gsb.columbia.edu
-- Office hours: Wednesdays 4-5pm on Zoom
+- Email: namkoong@gsb.columbia.edu
+- Office hours by appointment
 
-Chao Qin (TA)
-- Email: CQin22 (at) gsb.columbia.edu
-- Office hours: Fridays 4-5pm on Zoom
+Tiffany Cai (TA)
+- Email: tc3100@gsb.columbia.edu
+- Office hours: TBA
 
 
 
@@ -52,21 +52,17 @@ ability to read, write, and think rigorously is essential to understanding the
 material.
 
 == Grading  
-2 problem sets (50\%) and a final project (50\%).
+3 problem sets (50\%), final project (40\%), scribe for one lecture (3\%), one paper presentation (7\%)
 
 
 == Enrollment and HyFlex
 
 Non-GSB students can follow this
 [https://www8.gsb.columbia.edu/programs/doctoral-program/admissions/cross-registration
-instruction] to enroll in the class between Aug 28--Sep 4. Outside of
-this time window, email the instructor to enroll in the class.
+instruction] to enroll in the class. If you experience difficulties,
+email the instructor to enroll in the class.
 
-This class will be in the HyFlex format. This means that the lectures
-will take place in Uris 333, and will be simultaneously broadcasted on
-Zoom (see Canvas for Zoom link). Enrolled students
-will have the option of physically attending lectures on certain
-dates.  Email the course staff if you are enrolled in the class, but
-will only virtually attend lectures. Auditing students should join via
-Zoom.
+== Previous course offering
 
+This is a research topics class that gets significantly updated with new materials every time it is offered.
+The course was last offered in Fall, 2020; you can access the previous materials in this [./2020/index.html link].
