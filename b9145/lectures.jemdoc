@@ -8,8 +8,8 @@
  | *Topics* | * Lecture Notes * | *Readings*||
 
 Jan 26 | course overview | [./lecture-materials/01-overview.pdf slides], [./lecture-materials/01-overview-annotated.pdf annotated slides] |  ||
-Feb 2 | generalization bounds | [./lecture-materials/02-generalization.pdf notes]  |  Ch. 2, 4.2-4.3, 5, Wainwright (2019) ||
-# Sep 22 | M-estimation, SGD |  [./lecture-materials/2-asymptotics-sgd.pdf notes]  | Ch. 5, van der Vaart (1998), \n Ch. 2-3, Duchi (2016)  ||
+Feb 2 | generalization bounds | [./lecture-materials/02-generalization-scribe.pdf scribe notes] ,  [./lecture-materials/02-generalization.pdf handwritten notes]  |  Ch. 2, 4.2-4.3, 5, Wainwright (2019) ||
+Feb 9 | SGD, information theoretic lower bounds |   [./lecture-materials/03-sgd-lower-bounds.pdf notes]  |  [https://link.springer.com/chapter/10.1007/978-1-4612-1880-7_29 Yu (1997)], Ch. 5, Duchi (2016), [https://ieeexplore.ieee.org/document/6142067 Agarwal et al. (2012)] ||
 # Sep 29 | information theoretic lower bounds |  [./lecture-materials/3-lower-bounds.pdf notes]  | Ch. 15, Wainwright (2019), [https://link.springer.com/chapter/10.1007/978-1-4612-1880-7_29 Yu (1997)], \n Stoch. opt.: Ch. 5, Duchi (2016), [https://ieeexplore.ieee.org/document/6142067 Agarwal et al. (2012)]  ||
 # Oct 6 | distributional robustness | [./lecture-materials/4-dro-formulation.pdf notes-1], [./lecture-materials/4-dro.pdf notes-2]  |  [https://pubsonline.informs.org/doi/abs/10.1287/moor.2018.0936 Blanchet and Murthy (2019)]  ||
 # Oct 13 | distributional robustness | [./lecture-materials/5-dro.pdf notes]  | Ch. 6.3, Shapiro et al. (2014), [https://arxiv.org/abs/1610.05627 Blanchet et al. (2019)], \n
