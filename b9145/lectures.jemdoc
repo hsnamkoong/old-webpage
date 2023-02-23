@@ -5,13 +5,13 @@
 == Course Schedule (subject to change)
 ~~~
 {}{table}{TABLENAME}
- | *Topics* | * Lecture Notes * | *Readings*||
+*Date* | *Topics* | * Lecture Notes * | *Readings*||
 
 Jan 26 | course overview | [./lecture-materials/01-overview.pdf slides], [./lecture-materials/01-overview-annotated.pdf annotated slides] |  ||
 Feb 2 | generalization bounds | [./lecture-materials/02-generalization-scribe.pdf scribe notes],  [./lecture-materials/02-generalization.pdf handwritten notes]  |  Ch. 2, 4.2-4.3, 5, Wainwright (2019) ||
 Feb 9 | SGD, information theoretic lower bounds |   [./lecture-materials/03-sgd-scribe.pdf scribe notes], [./lecture-materials/03-sgd.pdf handwritten notes], Minimax lower bound notes: Ch 5, Duchi (2016)  |  Ch. 2, Duchi (2016), Ch. 15, Wainwright (2019), [https://link.springer.com/chapter/10.1007/978-1-4612-1880-7_29 Yu (1997)], [https://ieeexplore.ieee.org/document/6142067 Agarwal et al. (2012)] ||
-Feb 16 |  implementation demos |    |   ||
-# Oct 6 | distributional robustness | [./lecture-materials/4-dro-formulation.pdf notes-1], [./lecture-materials/4-dro.pdf notes-2]  |  [https://pubsonline.informs.org/doi/abs/10.1287/moor.2018.0936 Blanchet and Murthy (2019)]  ||
+Feb 16 |  implementation  | [https://colab.research.google.com/drive/1kDptNl40K5mjKIxa1-VAAoIx2nQ1Cbap  Intro to PyTorch], [https://colab.research.google.com/drive/1kDptNl40K5mjKIxa1-VAAoIx2nQ1Cbap  Cifar demo: Image classification], [https://colab.research.google.com/drive/1LPvBj7DMLXtRnplHwIMVcUtri0Dk1OWT  CLIP demo], [https://colab.research.google.com/drive/1cKDVvmmwr0eahUiJQLSB4tOwi0IVSW8E  Policy optimization] |  ||
+Feb 23 | domain adaptation | [./lecture-materials/05-domain-adaptation.pdf slides]  | [https://papers.nips.cc/paper/2006/hash/b1b0432ceafb0ce714426e9114852ac7-Abstract.html Ben-David et al. (2006)], [https://arxiv.org/abs/1505.07818 Ganin et al. (2016)], [https://arxiv.org/abs/1607.01719 Sun and Saenko (2016)]  ||
 # Oct 13 | distributional robustness | [./lecture-materials/5-dro.pdf notes]  | Ch. 6.3, Shapiro et al. (2014), [https://arxiv.org/abs/1610.05627 Blanchet et al. (2019)], \n
 # [https://jmlr.org/papers/v20/17-750.html Duchi and Namkoong (2019)]  ||
 # Oct 27 | adversarial training |  [./lecture-materials/6-adversarial.pdf notes] | [https://arxiv.org/abs/1711.00851 Wong and Kolter (2018)], [https://arxiv.org/pdf/1811.01057.pdf Raghunathan et al. (2018)]  ||
