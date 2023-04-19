@@ -17,7 +17,8 @@ Mar 1 | distributionally robustness optimization | [./lecture-materials/06-dro-s
  Mar 30 | pretraining and foundation models |  [./lecture-materials/08-zero-shot.pdf slides] | [https://openai.com/research/clip Radford et al. (2021)] ||
 April 6 | ethics, accountability, and fairness | [./lecture-materials/09-ethics.pdf introduction], [./lecture-materials/09-multicalibration.pdf multicalibration], [./lecture-materials/09-gerrymandering.pdf subgroup gerrymandering] |  [https://proceedings.mlr.press/v80/hebert-johnson18a.html Hebert-Johnson et al. (2018)], [https://sethstatistics.files.wordpress.com/2016/08/main.pdf Kearns et al. (2017)], [https://arxiv.org/abs/1808.08166 Kearns et al. (2018)] ||
 April 13 |  fairness definitions (cont.) and causal inference | [./lecture-materials/10-fairness-definitions.pdf fairness], [./lecture-materials/10-causality.pdf causality] |  [https://5harad.com/papers/fair-ml.pdf
-Corbette-Davies et al. (2023)] || 
+Corbette-Davies et al. (2023)] ||
+April 20 |  semiparametrics and sensitivity analysis | [./lecture-materials/11-causality.pdf semiparametrics], [./lecture-materials/11-sensitivity.pdf sensitivity], [./lecture-materials/11-tmle.pdf targeting] |  Imbens and Rubin (2015), [https://arxiv.org/abs/1808.09521 Yadlowsky et al. (2022)] || 
 # Dec 1 | causality | [./lecture-materials/10-causality.pdf slides], [./lecture-materials/10-causality-annotated.pdf annotated slides]  |  Imbens and Rubin (2015)  ||
 # Dec 8 | causality | [./lecture-materials/11-sensitivity.pdf slides], [./lecture-materials/11-sensitivity-annotated.pdf annotated slides]  |   [https://arxiv.org/abs/1808.09521 Yadlowsky et al. (2018)]
 ~~~
