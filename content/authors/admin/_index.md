@@ -40,13 +40,13 @@ social:
   icon_pack: ai
   link: https://scholar.google.com/citations?user=dyXX1EgAAAAJ
 - icon: github
-  icon_pack: fab
+  icon_pack: github
   link: https://github.com/namkoong-lab
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/uploads/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/resume.pdf
+  link: assets/cv.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
