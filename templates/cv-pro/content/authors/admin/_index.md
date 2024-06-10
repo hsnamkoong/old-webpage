@@ -14,19 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 'I am an assistant professor in
-    the [Decision, Risk, and Operations](https://www8.gsb.columbia.edu/faculty-research/divisions/decision-risk-operations) division
-    at [Columbia Business School](https://www8.gsb.columbia.edu/) and a member of
-    the [Data Science Institute](https://datascience.columbia.edu/). My research interests lie at the interface of
-    machine learning and decision-making. I develop robust and reliable
-    methods for data-driven decision making, extending and connecting
-    tools across ML, operations research, and causal inference. Outside
-    of academia, I serve as a LinkedIn Scholar at LinkedIn's Trust and
-    Responsible AI team.
-
-    I received my Ph.D. from [Stanford University](http://www.stanford.edu) in 2019 and spent a year
-    at [Facebook Core Data Science](https://research.fb.com/core-data-science/) as a research scientist. Here's a more
-    formal [bio](./bio.html) in the third person.'
+bio: 'I am an assistant professor in'
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
